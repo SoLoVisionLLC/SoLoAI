@@ -120,7 +120,7 @@ def run(should_start_server=True):
     fh.setLevel(logging.DEBUG)
     logger.addHandler(fh)
 
-    logger.info("🌘 Starting Khoj")
+    logger.info("🌘 Starting SoloAI")
 
     # Setup task scheduler
     poll_task_scheduler()
@@ -157,7 +157,7 @@ def set_state(args):
 
 
 def start_server(app, host=None, port=None, socket=None):
-    logger.info("🌖 Khoj is ready to use")
+    logger.info("🌖 SoloAI is ready to use")
     if socket:
         uvicorn.run(app, proxy_headers=True, uds=socket, log_level="debug", use_colors=True, log_config=None)
     else:
@@ -170,7 +170,7 @@ def start_server(app, host=None, port=None, socket=None):
             log_config=None,
             timeout_keep_alive=60,
         )
-    logger.info("🌒 Stopping Khoj")
+    logger.info("🌒 Stopping SoloAI")
 
 
 def poll_task_scheduler():

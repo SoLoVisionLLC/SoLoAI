@@ -4,11 +4,11 @@
 
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-    --primary: #f9f5de;
-    --primary-hover: #fee285;
+    --primary: #7d93d3;
+    --primary-hover: #8C92AC;
     --primary-focus: rgba(255, 179, 0, 0.125);
     --primary-inverse: rgba(0, 0, 0, 0.75);
-    --background-color: #f5f4f3;
+    --background-color: #aaa9a8;
     --frosted-background-color: rgba(245, 244, 243, 0.75);
     --main-text-color: #475569;
     --summer-sun: #fcc50b;
@@ -22,11 +22,11 @@
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
-        --primary: #f9f5de;
-        --primary-hover: #fee285;
+        --primary: #7d93d3;
+        --primary-hover: #8C92AC;
         --primary-focus: rgba(255, 179, 0, 0.25);
         --primary-inverse: rgba(0, 0, 0, 0.75);
-        --background-color: #f5f4f3;
+        --background-color: #aaa9a8;
         --frosted-background-color: rgba(245, 244, 243, 0.75);
         --main-text-color: #475569;
         --summer-sun: #fcc50b;
@@ -39,11 +39,11 @@
 /* Amber Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    --primary: #f9f5de;
-    --primary-hover: #fee285;
+    --primary: #7d93d3;
+    --primary-hover: #8C92AC;
     --primary-focus: rgba(255, 179, 0, 0.25);
     --primary-inverse: rgba(0, 0, 0, 0.75);
-    --background-color: #f5f4f3;
+    --background-color: #aaa9a8;
     --frosted-background-color: rgba(245, 244, 243, 0.75);
     --main-text-color: #475569;
     --summer-sun: #fcc50b;
